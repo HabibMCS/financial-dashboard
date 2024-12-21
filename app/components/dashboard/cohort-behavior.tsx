@@ -2,7 +2,7 @@
 'use client';
 
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const sampleData = Array.from({ length: 12 }, (_, i) => ({
   month: `${i + 1}/23`,

@@ -3,8 +3,6 @@
 
 import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';  // Updated import path
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { DollarSign, ArrowDownRight, ArrowUpRight } from 'lucide-react';
 
 // Sample data
 const data = {
