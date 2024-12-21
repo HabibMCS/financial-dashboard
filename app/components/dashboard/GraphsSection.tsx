@@ -3,7 +3,7 @@
 
 import React, { ReactElement, useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 type Period = '3M' | '6M' | '1Y' | 'ALL';
 
